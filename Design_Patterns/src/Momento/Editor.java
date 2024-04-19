@@ -18,6 +18,6 @@ public class Editor {
 
     public void restore(EditorState state){
         if(state !=null)
-            this.content = state.getContent();
+            this.content = state.content();
     }
 }
