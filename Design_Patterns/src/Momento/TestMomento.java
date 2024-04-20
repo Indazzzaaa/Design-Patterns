@@ -16,6 +16,15 @@ public class TestMomento {
         history.push(editor.createState());
 
         System.out.printf("->> Current state : %s\n",editor.getContent());
+        editor.restore(history.pop());
+        System.out.printf("->> Current state : %s\n",editor.getContent());
+
+        editor.restore(history.pop());
+        System.out.printf("->> Current state : %s\n",editor.getContent());
+        editor.restore(history.pop());
+        System.out.printf("->> Current state : %s\n",editor.getContent());editor.restore(history.pop());
+        System.out.printf("->> Current state : %s\n",editor.getContent());
+
 
 
     }
