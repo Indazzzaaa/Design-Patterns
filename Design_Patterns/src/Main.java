@@ -1,3 +1,4 @@
+import CommandPattern.CommandPatternTest;
 import IteratorPattern.IteratorTest;
 import Momento.TestMomento;
 import StatePattern.StatePatternTest;
@@ -10,6 +11,9 @@ public class Main {
 //        StatePatternTest.test();
 //        IteratorTest.test();
 //        StrategyTest.test();
-        TemplateMethodTest.test();
+//        TemplateMethodTest.test();
+
+//        CommandPatternTest.test();
+        CommandPatternTest.CompositeTest();
     }
 }
