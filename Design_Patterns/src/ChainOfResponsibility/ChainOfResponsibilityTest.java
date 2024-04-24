@@ -11,7 +11,8 @@ public class ChainOfResponsibilityTest {
         server.handle(new HttpRequest("admin","1234"));
     }
 
-    // now it's easily extensible
+    // now it's easily extensible : In future we can add many things like
+    // QueryParser, Path Parser, Body Parser, Cookies Parser etc.
     public static void test2(){
         // decrypter -> authenticator -> encrypter -> logger -> compressor
         var compressor = new Compressor(null);

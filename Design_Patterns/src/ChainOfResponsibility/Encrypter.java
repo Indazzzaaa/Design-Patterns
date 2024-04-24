@@ -6,7 +6,7 @@ public class Encrypter extends Handler{
     }
 
     @Override
-    public boolean doHandle(HttpRequest request) {
+    protected boolean doHandle(HttpRequest request) {
         System.out.println("->> Encrypter");
         return false;
     }

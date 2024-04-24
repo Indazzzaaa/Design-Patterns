@@ -6,7 +6,7 @@ public class Compressor extends Handler{
     }
 
     @Override
-    public boolean doHandle(HttpRequest request) {
+    protected boolean doHandle(HttpRequest request) {
         System.out.println("->> Compressed");
 
         return false;

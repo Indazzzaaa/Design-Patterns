@@ -1,7 +1,7 @@
 package ChainOfResponsibility;
 
 public abstract class Handler {
-    private Handler next;
+    private final Handler next;
 
     public Handler(Handler next) {
         this.next = next;
@@ -16,5 +16,5 @@ public abstract class Handler {
 
     }
 
-    public abstract  boolean doHandle(HttpRequest request);
+    protected abstract  boolean doHandle(HttpRequest request);
 }
