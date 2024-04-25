@@ -1,9 +1,7 @@
-import ChainOfResponsibility.ChainOfResponsibilityTest;
-import CommandPattern.CommandPatternTest;
-import Observer.ObserverPatternTest;
+import Visitor.VisitorTest;
 
 public class Main {
     public static void main(String[] args) {
-        ChainOfResponsibilityTest.test2();
+        VisitorTest.test();
     }
 }
